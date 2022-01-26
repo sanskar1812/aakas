@@ -1,0 +1,64 @@
+.wrapper{
+  background:#ED2324;
+  width:100%;
+  position:fixed;
+}
+#myCanvas{ background:url('https://37.media.tumblr.com/tumblr_mbha9qWF401qcixnko4_500.gif') no-repeat center center fixed;
+  background-size: cover;
+  z-index:1000;
+  position:relative;
+}
+.Marvel{
+  color:#fff;
+  font-size:100px;
+  border:6px solid #fff;
+  position:relative;
+  z-index:100;
+  top:-600px;
+  width:250px;
+  left:30%;
+  font-family: 'BentonSansExtraCompBlack';
+  
+  src: url('http://sudocoda.com/fonts/bentonsansextracomp-black-webfont.eot?') format('eot'); 
+  src: url('http://sudocoda.com/fonts/bentonsansextracomp-black-webfont.woff') format('woff'), url('http://sudocoda.com/fonts/bentonsansextracomp-black-webfont.ttf') format('truetype');
+  padding-right:80px;
+  padding-left:20px;
+}
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 50%;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  allign:center;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.abc{
+  position: absolute;
+  top: 43%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  padding: 12px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
